@@ -1,4 +1,5 @@
 import styles from './ProjectsStyles.module.css';
+import warismind from '../../assets/warismind.png';
 import fatehburj from '../../assets/chaparchiri.png';
 import IIT from '../../assets/Samridhi.png';
 import PRESTATE from '../../assets/PRESTATE.png';
@@ -10,7 +11,7 @@ import chamkilasong from '../../assets/chamkilasong.png';
 import panchiwin from '../../assets/panchiwin.png';
 import sidhutribute from '../../assets/sidhutribute.png';
 import college1 from '../../assets/PGGC46.png';
-import schoolmemories from '../../assets/schoolmemories.png';
+
 
 
 
@@ -22,6 +23,12 @@ function Projects() {
     <section id="projects" className={styles.container}>
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
+        <ProjectCard
+          src={warismind}
+          link="https://www.youtube.com/watch?v=377QAQw83_c"
+          h3="Waris's Mind"
+          p="Documenting"
+        />
         <ProjectCard 
           src={fatehburj}
           link="https://www.youtube.com/watch?v=Fin6sRi09aE"
@@ -88,12 +95,7 @@ function Projects() {
           h3="PGGC 46"
           p="Documenting"
         />
-        <ProjectCard
-          src={schoolmemories}
-          link="https://www.youtube.com/watch?v=Y99s9yVpEGY"
-          h3="School Memories"
-          p="Journey"
-        />
+        
        
       </div>
     </section>
