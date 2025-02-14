@@ -11,6 +11,9 @@ import chamkilasong from '../../assets/chamkilasong.png';
 import panchiwin from '../../assets/panchiwin.png';
 import sidhutribute from '../../assets/sidhutribute.png';
 import college1 from '../../assets/PGGC46.png';
+import jalianwala from '../../assets/jalianwala.png';
+import aevytv from '../../assets/aevytv.png';
+
 
 
 
@@ -23,6 +26,18 @@ function Projects() {
     <section id="projects" className={styles.container}>
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
+       <ProjectCard
+          src={aevytv}
+          link="https://drive.google.com/file/d/1Nxk5tmWfVggHr0TmYKkPUA8l2ZqELTnP/view?usp=sharing"
+          h3="Aevy TV (YT)"
+          p="Explainer"
+        />
+       <ProjectCard
+          src={jalianwala}
+          link="https://drive.google.com/file/d/1psh9WuAv7swJ4tSJnAjwwQgh4e8SMPdB/view?usp=sharing"
+          h3="Jallianwala Incident"
+          p="Explainer"
+        />
         <ProjectCard
           src={warismind}
           link="https://www.youtube.com/watch?v=377QAQw83_c"
